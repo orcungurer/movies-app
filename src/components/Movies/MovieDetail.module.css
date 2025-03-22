@@ -1,0 +1,31 @@
+.movie {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.movie h1 {
+  margin-bottom: 0.5rem;
+}
+
+.movie__description {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.movie__description img {
+  border-radius: 0.25rem;
+}
+
+.movie__details h2 {
+  margin-bottom: 1rem;
+}
+
+.movie__details p {
+  margin-bottom: 0.5rem;
+}
+
+.goback-btn {
+  display: block;
+  margin-left: auto;
+}
