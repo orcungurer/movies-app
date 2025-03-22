@@ -1,0 +1,21 @@
+.table__container {
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table__row {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+tbody .table__row:hover {
+  background-color: #f2f2f2;
+}
+
+.table__cell {
+  padding: 1rem 0;
+}

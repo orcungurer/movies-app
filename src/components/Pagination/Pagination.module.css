@@ -1,0 +1,11 @@
+.info {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
