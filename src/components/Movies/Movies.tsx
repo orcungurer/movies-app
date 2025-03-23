@@ -46,12 +46,12 @@ const Movies = () => {
     <div className={classes.movies}>
       <h1>Movies</h1>
       <Filters
-        searchMovie={searchMovie}
-        onSearchMovie={setSearchMovie}
-        releaseYear={releaseYear}
-        onReleaseYear={setReleaseYear}
-        type={type}
-        onType={setType}
+        initialSearch={searchMovie}
+        onFilter={(search, year, selectedType) => {
+          setSearchMovie(search);
+          setReleaseYear(year);
+          setType(selectedType);
+        }}
       />
       <Table movies={movies} />
       <Pagination />

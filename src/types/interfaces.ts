@@ -1,10 +1,6 @@
 export interface FiltersProps {
-  searchMovie: string;
-  onSearchMovie: (value: string) => void;
-  releaseYear: string;
-  onReleaseYear: (value: string) => void;
-  type: string;
-  onType: (value: string) => void;
+  onFilter: (search: string, year: string, type: string) => void;
+  initialSearch: string;
 }
 
 export interface MovieDetailProps {
